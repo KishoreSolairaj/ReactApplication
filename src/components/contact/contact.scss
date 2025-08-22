@@ -1,0 +1,119 @@
+.contact_container{
+    height: 91vh;
+  background-image: url('../../assets/image/contact.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  background-color: rgb(0 0 0 / 50%);
+
+}
+
+.contact_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .contact_container .contact_topics{
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 2rem;
+  }
+  .contact_container .contact_topic{
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .contact_details_container{
+        display: flex;
+        margin: 50px auto;
+        align-items: center;
+        width: 70%;
+    }
+
+  .contact_details_company_container, .contact_user_detail{
+    width: 50%;
+  }
+  .contact_details_company_headline{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.contact_company_details{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.contact_company_details_icon{
+    width: 20%;
+}
+
+.contact_company_details_icon span{
+    border: 1px solid #d4c7c76e;
+    width: 47%;
+    border-radius: 36px;
+    height: 41px;
+    background: #d4c7c76e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 10px 15px;
+} 
+
+.contact_company_detail_headline{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.contact_company_detail_content{
+    font-size: 18px;
+    text-align: left;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 0px 20px 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 6px 3px;
+    border: 1px solid #00000052;
+    border-radius: 5px;
+}
+
+.invalid-feedback{
+    color: rgb(247, 10, 10);
+}
+
+.form-group-button{
+    text-align: left;
+}
+
+.btn-primary{
+    margin: 0px 0px 20px 10px;
+    padding: 8px 30px;
+    font-size: 18px;
+    border: 1px solid #88AD35;
+    color: #fff;
+    background: #88AD35;
+    border-radius: 6px;
+}

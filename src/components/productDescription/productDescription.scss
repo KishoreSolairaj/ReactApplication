@@ -1,0 +1,31 @@
+.productDescriptionPage {
+    display: flex;
+    margin: 30px auto;
+    width: 80%;
+    align-items: flex-start;
+}
+.productDetaliedDescription{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.productDetailSpace{
+    margin-bottom: 20px;
+}
+.price_container_desc{
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+
+.btn-primary{
+    margin: 0px 0px 20px 10px;
+    padding: 8px 30px;
+    font-size: 18px;
+    border: 1px solid #88AD35;
+    color: #fff;
+    background: #88AD35;
+    border-radius: 6px;
+}

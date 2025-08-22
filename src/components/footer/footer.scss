@@ -1,0 +1,37 @@
+.footer_main_block{
+    background-color: #000;
+}
+.footer_category_list {
+    display: flex;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.footer_icons span{
+    margin: 0px 5px;
+}
+
+.footer_navigation_links, .footer_icons{
+    display: flex;
+    color: #fff;
+}
+
+.copyRightsContainer{
+    color: #fff;
+    padding: 10px 0px;
+    border-top: 1px solid #ffffff57;
+}
+
+
+
+.footer_icons span {
+    color:#fff;
+
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 20px;
+    align-items: center;
+    padding-top: 10px;
+}

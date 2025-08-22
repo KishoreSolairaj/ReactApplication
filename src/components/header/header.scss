@@ -1,0 +1,38 @@
+.header_main_block{
+    background-color: #000;
+}
+
+.header_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_container{
+    width: 50%;
+    text-align: left;
+    margin-left: 35px;
+}
+.navigation_links{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+}
+
+.shopping_icon_block{
+    display: flex;
+    margin-right: 35px;
+    cursor: pointer;
+}
+.category_list{
+    margin: 0px 25px;
+    cursor: pointer;
+}
+.todatl_price_block{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.header_main_block{    padding: 10px 0px;}
